@@ -12,13 +12,14 @@
   <aside class="top-notice">
     <div class="container top-notice-inner">
       <span>ENVÍOS A TODO EL PAÍS EN 24/48 HORAS — NUEVA COLECCIÓN DISPONIBLE</span>
-      <span>ATENCIÓN AL CLIENTE: CONTACTO@KOSAS.COM</span>
+      <span id="info-usuario"></span>
+      <button id="btn-salir" class="nav-brand-badge">Cerrar Sesion</button>
     </div>
   </aside>
 
   <header class="navbar">
     <div class="container navbar-inner">
-      <a href="../index.html" class="nav-brand">
+      <a href="../../index.html" class="nav-brand">
         <span>KOSAS</span>
         <span class="nav-brand-badge">STUDIO</span>
       </a>
@@ -26,8 +27,8 @@
       <nav aria-label="Navegación del sitio">
         <ul class="nav-links">
           <li><a href="../index.html" class="nav-link">Iniciar Sesión</a></li>
-          <li><a href="catalogo.html" class="nav-link active">Explorar Cosas</a></li>
-          <li><a href="agregar-cosa.html" class="nav-link highlight">+ Publicar Cosa</a></li>
+          <li><a href="./cosas-view-catalogo.html" class="nav-link active">Explorar Cosas</a></li>
+          <li><a href="./cosas-view-agregar.html" class="nav-link highlight">+ Publicar Cosa</a></li>
           <li><a href="registro.html" class="nav-link">Crear Cuenta</a></li>
         </ul>
       </nav>
@@ -268,6 +269,7 @@
       </div>
     </div>
   </footer>
+  <script type="module" src="../../controllers/CosasController.js"></script>
 
 </body>
 </html>
